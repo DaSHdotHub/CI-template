@@ -43,8 +43,25 @@ header a {
 }
 
 header li {
-    list-style-type: none;
+    display: inline;
+    padding: 2px 10px;
 }
+
+#menu {
+    list-style-type: none;
+    padding: 2px;
+    color: #1f1f1f;
+    font-size: x-large;
+    letter-spacing: 4px;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 
 main {
     background-color: lightblue;
