@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&&family=Roboto:wght@200;300;400;500;600;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -12,7 +15,12 @@ body {
     flex-direction: column;
     /* Generic project style */
     color: #3a3a3a;
+    font-family: 'Roboto Condensed', sans-serif;
 
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Header */
