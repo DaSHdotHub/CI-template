@@ -166,6 +166,28 @@ main {
     text-align: start;
 }
 
+#times {
+    background: url(../img/dublin-city.webp) no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#times div {
+    color:#fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: #ffffff 2px solid;
+}
+
+#times h3 {
+    color:#fafafa;
+    text-align: center;
+}
+
 footer {
 
     padding: 0.5rem 0 0.5rem 0;
