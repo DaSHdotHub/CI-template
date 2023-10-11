@@ -190,6 +190,14 @@ main {
     color:#fafafa;
     text-align: center;
 }
+/* Gallery */
+#photos img {
+    width: 100%;
+    line-height: 0;
+}
+#photos {
+    line-height: 0;
+}
 
 footer {
 
@@ -212,6 +220,15 @@ footer li {
 footer a {
     text-decoration: none;
     padding: 2px 0;
+}
+
+
+/* Media query: small notebooks and larger (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -254,8 +271,12 @@ footer a {
         text-align: end;
         align-self: flex-end;
     }
+    #photos {
+        column-count: 4;
+    }
 
 }
+
 
 /* Media query: small notebooks and larger (992px and up) */
 @media screen and (min-width: 992px) {
