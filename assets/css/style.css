@@ -162,6 +162,9 @@ main {
     max-width: 300px;
     max-height: 300px;
 }
+#meetup-times h2, #meetup-times h3{
+    text-align: start;
+}
 
 footer {
 
