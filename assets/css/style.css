@@ -94,7 +94,27 @@ main {
 }
 
 footer {
+
+    padding: 0.5rem 0 0.5rem 0;
+    display: flex;
+    width: 100vw;
     background-color: orange;
+    justify-content: space-evenly;
+
+
+}
+
+footer li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 1rem 0 1rem;
+    font-size: 200%;
+    color: #2a2a2a;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 2px 0;
 }
 
 /* Media query: tablets and larger (768px and up) */
