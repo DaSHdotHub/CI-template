@@ -198,6 +198,11 @@ main {
 #photos {
     line-height: 0;
 }
+/* Signup */
+#signup > h2 {
+    text-align: start;
+    letter-spacing: 1.5px;
+}
 
 footer {
 
